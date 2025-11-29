@@ -1,6 +1,30 @@
-# Sherlock Monorepo
+# Sherlock - AI Crime Detective
 
-A full-stack application with Python backend (FastAPI + LangChain) and Next.js frontend.
+<p align="center">
+  <img src="assets/cover.png" alt="AI Crime Detective - Knowledge Graph Investigator" width="100%">
+</p>
+
+<p align="center">
+  <strong>Knowledge Graph Investigator | Next-Gen RAG</strong>
+</p>
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#project-structure">Project Structure</a>
+</p>
+
+---
+
+A full-stack AI-powered crime investigation application with Python backend (FastAPI + LangChain) and Next.js frontend. Uses knowledge graphs and advanced RAG techniques for intelligent case analysis.
+
+## Features
+
+- 🔍 **AI-Powered Analysis** - Intelligent reasoning to connect suspects, evidence, and locations
+- 🕸️ **Knowledge Graph** - Neo4j-based graph database for relationship mapping
+- ⚡ **Real-Time Processing** - Live analysis of investigation data
+- 🎯 **Next-Gen RAG** - Advanced retrieval-augmented generation for accurate insights
 
 
 
