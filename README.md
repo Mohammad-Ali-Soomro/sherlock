@@ -3,7 +3,7 @@
 A full-stack application with Python backend (FastAPI + LangChain) and Next.js frontend.
 
 
-![Uploading sh4.png…]()
+
 
 ## Project Structure
 
