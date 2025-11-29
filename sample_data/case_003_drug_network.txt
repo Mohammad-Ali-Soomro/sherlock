@@ -1,0 +1,141 @@
+=== CASE FILE #003: THE DRUG TRAFFICKING NETWORK ===
+Classification: NARCOTICS / ORGANIZED CRIME / RICO
+Lead Detective: James Rodriguez
+Date Opened: November 20, 2025
+
+--- EXECUTIVE SUMMARY ---
+A multi-jurisdictional investigation into a sophisticated drug trafficking operation spanning from South America through Central America and into the United States. The organization has connections to legitimate businesses, corrupt officials, and multiple criminal enterprises.
+
+--- ORGANIZATION STRUCTURE ---
+
+Leader: Carlos "El Jefe" Mendoza
+Carlos Mendoza, age 52, is the head of the Mendoza Cartel based in Colombia. Carlos Mendoza controls cocaine production in three Colombian provinces. Carlos Mendoza has an estimated net worth of $4 billion. Carlos Mendoza rarely leaves Colombia due to international arrest warrants. Carlos Mendoza has connections to corrupt Colombian military officials.
+
+Lieutenant: Diego Vargas
+Diego Vargas, age 44, is the primary logistics coordinator for North American distribution. Diego Vargas operates from Mexico City and coordinates shipments to the US border. Diego Vargas was a former Mexican federal police commander before joining the cartel. Diego Vargas has bribed US border patrol agents to allow shipments through. Diego Vargas communicates with Carlos Mendoza through encrypted satellite phones.
+
+Lieutenant: Sofia Reyes
+Sofia Reyes, age 38, manages the cartel's money laundering operations. Sofia Reyes was educated at Wharton Business School and worked at JP Morgan. Sofia Reyes runs legitimate import/export businesses as fronts for money laundering. Sofia Reyes has established relationships with bankers in Panama, Cayman Islands, and Switzerland. Sofia Reyes is the sister of Diego Vargas.
+
+US Operations: Miguel Santos
+Miguel Santos, age 41, heads all US distribution from a base in Los Angeles. Miguel Santos controls distribution networks in California, Arizona, Texas, and Nevada. Miguel Santos has corrupted local law enforcement in multiple jurisdictions. Miguel Santos runs his operation through a chain of auto body shops. Miguel Santos has been arrested five times but never convicted.
+
+US Operations: Luis Guerrero
+Luis Guerrero, age 35, controls the East Coast distribution network from Miami. Luis Guerrero took over operations after the previous boss was killed in 2023. Luis Guerrero has connections to The Volkov Brotherhood for distribution in the Northeast. Luis Guerrero operates through nightclubs and restaurants in South Florida. Luis Guerrero is known for extreme violence against rivals.
+
+US Operations: Raymond "Ray" Thompson
+Raymond Thompson, age 47, is a former DEA agent now working for the cartel. Raymond Thompson provides intelligence on law enforcement operations. Raymond Thompson has access to confidential informant identities. Raymond Thompson recruited other corrupt agents into the organization. Raymond Thompson is married to the niece of Carlos Mendoza.
+
+--- DISTRIBUTION NETWORK ---
+
+Hub: Los Angeles
+Miguel Santos operates the LA hub from 15 auto body shops across the greater LA area. Cocaine arrives hidden in car parts shipped from Tijuana. Weekly volume through LA hub is approximately 500 kilos of cocaine. Distribution is handled by local street gangs including MS-13 and 18th Street. Profits are laundered through cash-intensive businesses including laundromats and parking lots.
+
+Hub: Houston
+The Houston hub is managed by Ernesto Salazar, a cousin of Diego Vargas. Cocaine and heroin arrive through Port Houston hidden in shipping containers. Monthly volume through Houston is approximately 800 kilos of mixed product. Distribution is handled by local crews and Texas-based motorcycle gangs. Money is laundered through oil field service companies.
+
+Hub: Miami
+Luis Guerrero's Miami operation is the largest on the East Coast. Product arrives by boat from the Bahamas and by air from Central America. Weekly volume through Miami is approximately 600 kilos of cocaine. Distribution extends throughout Florida, Georgia, and up the Eastern seaboard. Nightclubs serve as distribution points and money laundering fronts.
+
+Hub: Chicago
+The Chicago hub is managed by former gang leader Tyrone Williams. Chicago serves as distribution point for the Midwest region. Product arrives via ground transportation from Houston and LA. Monthly volume through Chicago is approximately 400 kilos. Distribution is handled by local gang affiliates.
+
+Hub: New York
+New York operations are conducted in partnership with The Volkov Brotherhood. Viktor Petrov coordinates distribution to street-level dealers. Monthly volume through New York is approximately 350 kilos. Money laundering occurs through Volkov-controlled businesses. Raymond Cross, corrupt former detective, provides protection.
+
+--- MONEY LAUNDERING OPERATIONS ---
+
+Front Business: Sunshine Auto Parts
+Sunshine Auto Parts is a chain of 15 auto parts stores owned by Miguel Santos. Sunshine Auto Parts shows revenue of $45 million annually but actual legitimate sales are $12 million. Cash from drug sales is mixed with store revenues to appear legitimate. Sunshine Auto Parts has accounts at Bank of America and Wells Fargo.
+
+Front Business: Caribbean Dreams Imports
+Caribbean Dreams Imports is an import/export company run by Sofia Reyes. Caribbean Dreams Imports legitimately imports tropical fruits and goods from Central America. Drug proceeds are invoiced as payments for non-existent shipments. Caribbean Dreams Imports moves approximately $100 million annually in laundered funds.
+
+Front Business: Neon Nights Entertainment
+Neon Nights Entertainment operates 8 nightclubs in South Florida owned by Luis Guerrero. Nightclubs generate high cash volume making them ideal for laundering. Drug sales also occur on premises through controlled staff. Neon Nights Entertainment employs off-duty police officers for security.
+
+Front Business: Heartland Trucking
+Heartland Trucking is a logistics company used to transport drugs across state lines. Heartland Trucking has contracts with legitimate retailers to provide cover. Heartland Trucking employs drivers who are cartel members or associates. Heartland Trucking's terminals serve as storage points for drug shipments.
+
+--- CORRUPT OFFICIALS ---
+
+Official: Captain Ricardo Molina
+Captain Ricardo Molina is a commander in the Houston Police Department. Captain Molina receives $50,000 monthly to provide advance warning of raids. Captain Molina has promoted officers who are sympathetic to the cartel. Captain Molina socializes with Ernesto Salazar at his hunting ranch. Captain Molina has served on the force for 22 years.
+
+Official: Judge Patricia Wells
+Judge Patricia Wells presides over federal court in the Southern District of Florida. Judge Wells has consistently ruled favorably for cartel-connected defendants. Judge Wells receives payments through her husband's consulting company. Judge Wells dismissed charges against Luis Guerrero in 2024 on a technicality. Judge Wells has a gambling problem and owes money to cartel-connected bookies.
+
+Official: Customs Inspector Frank Martinez
+Frank Martinez is a US Customs inspector at the Port of Houston. Frank Martinez allows marked shipping containers to pass without inspection. Frank Martinez receives $25,000 per container allowed through. Frank Martinez has worked customs for 15 years and is above suspicion. Frank Martinez recruited two other inspectors into the scheme.
+
+Official: DEA Agent Thomas Wright
+Thomas Wright is a DEA agent based in the Miami field office. Thomas Wright provides Raymond Thompson with information about ongoing investigations. Thomas Wright has warned the cartel about planned arrests at least 6 times. Thomas Wright receives $75,000 annually deposited in an offshore account. Thomas Wright's wife is unaware of his criminal activities.
+
+Official: State Senator Maria Delgado
+Senator Maria Delgado represents a district in Southern Arizona. Senator Delgado has opposed border security measures that would impact cartel operations. Senator Delgado receives campaign contributions from cartel-connected businesses. Senator Delgado's brother is employed by a Mendoza-connected company. Senator Delgado advocated for reduced sentences for drug offenses.
+
+--- VIOLENCE AND ENFORCEMENT ---
+
+Enforcer: Gabriel "El Diablo" Rojas
+Gabriel Rojas, age 39, is the primary enforcer for the Mendoza Cartel. Gabriel Rojas is responsible for an estimated 47 murders. Gabriel Rojas leads a team of 12 sicarios (hitmen) who operate in the US. Gabriel Rojas was trained by Mexican special forces before deserting. Gabriel Rojas has never been arrested due to witness intimidation.
+
+Incident: Phoenix Massacre
+On June 15, 2024, five members of a rival drug crew were killed in Phoenix. Gabriel Rojas and his team conducted the attack in response to territory encroachment. Phoenix police have no witnesses despite the public nature of the attack. Surveillance footage shows vehicles registered to Sunshine Auto Parts near the scene.
+
+Incident: Houston Warehouse
+On September 3, 2024, three informants were tortured and killed in a Houston warehouse. The victims had been providing information to DEA about cartel operations. Raymond Thompson is suspected of identifying the informants to the cartel. Bodies were discovered by a homeless person three days after the killings.
+
+Incident: Miami Nightclub Shooting
+On January 22, 2025, a shooting at Club Aqua left 4 dead and 12 wounded. The attack targeted a rival dealer who had been selling in Luis Guerrero's territory. Two of the victims were innocent bystanders. No arrests have been made and witnesses refuse to cooperate.
+
+--- PRODUCT SOURCE AND TRANSPORTATION ---
+
+Source: Colombia
+Coca leaves are grown in Putumayo, Caqueta, and Norte de Santander provinces. Processing labs are hidden in jungle locations protected by armed guards. Cocaine base is transported to coastal areas for export. Carlos Mendoza controls 40% of Colombian cocaine production.
+
+Route: Pacific Corridor
+Product is loaded onto fishing boats at Colombian Pacific ports. Shipments travel north along the coast, transferring to Mexican vessels near Guatemala. Mexican boats land at isolated beaches in Sinaloa and Baja California. Ground transportation moves product to border crossing points.
+
+Route: Caribbean Corridor
+Go-fast boats depart from Colombia's Caribbean coast. Product is transferred to larger vessels in international waters. Shipments land in the Bahamas, Jamaica, or directly in Florida. Luis Guerrero's organization receives Caribbean shipments.
+
+Route: Central American Corridor
+Air transport moves product to airstrips in Honduras and Guatemala. Ground transportation crosses into Mexico through Guatemala border. Product is consolidated in warehouses in Mexico City region. Diego Vargas coordinates the Central American operations.
+
+Border Crossing: Tijuana
+Tunnels under the border allow large shipments to cross undetected. Vehicle shipments with hidden compartments cross at San Ysidro port of entry. Corrupt Mexican customs officials clear outbound shipments. Corrupt US border agents wave through marked vehicles.
+
+Border Crossing: El Paso
+Product arrives hidden in commercial truck shipments. Heartland Trucking provides legitimate cover for drug loads. Industrial areas near the border serve as distribution points. Weekly crossings average 200 kilos.
+
+--- COMMUNICATIONS ANALYSIS ---
+
+The Mendoza Cartel uses multiple layers of encrypted communications. Operational messages use Signal with disappearing messages enabled. High-level coordination uses satellite phones with encryption. Code words are changed weekly to avoid detection.
+
+Code: "Machinery" = Cocaine
+Code: "Flowers" = Heroin  
+Code: "Tires" = Cash payment
+Code: "Delivery" = Shipment arriving
+Code: "Maintenance" = Law enforcement activity
+Code: "Vacation" = Arrest warrant issued
+
+--- CONNECTIONS TO OTHER CASES ---
+
+The Volkov Brotherhood, connected to The Blackwood Manor Murder (Case #001), serves as the distribution partner in New York. Viktor Petrov, who loaned money to Thomas Blackwood, receives cocaine from the Mendoza Cartel through Luis Guerrero.
+
+Sterling Capital Partners (Case #002) has provided financial services to front companies connected to the Mendoza Cartel. Sofia Reyes and David Chen have communicated about "investment opportunities."
+
+Raymond Cross, husband of Dr. Helena Cross from the Blackwood case, is connected to Raymond Thompson through their mutual corruption. Both were recruited by organized crime after leaving law enforcement.
+
+Mediterranean Trade Alliance (Case #002), controlled by Natasha Volkov, has facilitated money transfers for the Mendoza Cartel. The Volkov Brotherhood and Mendoza Cartel have a strategic partnership.
+
+--- ESTIMATED SCALE OF OPERATIONS ---
+
+Annual cocaine volume: 75,000 kilograms
+Annual heroin volume: 5,000 kilograms
+Street value of annual distribution: $4.2 billion
+Estimated annual profits: $1.8 billion
+Number of US-based operatives: 2,500
+Number of corrupt officials identified: 47
+
+=== END OF CASE FILE #003 ===

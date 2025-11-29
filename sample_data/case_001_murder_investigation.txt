@@ -1,0 +1,130 @@
+=== CASE FILE #001: THE BLACKWOOD MANOR MURDER ===
+Classification: HOMICIDE - First Degree
+Lead Detective: Marcus Webb
+Date Opened: November 15, 2025
+
+--- VICTIM INFORMATION ---
+Name: Richard Blackwood
+Age: 67
+Occupation: CEO of Blackwood Industries
+Found: Dead in his study at Blackwood Manor
+Cause of Death: Poisoning (Arsenic)
+Time of Death: Approximately 10:30 PM, November 14, 2025
+
+--- WITNESS STATEMENTS ---
+
+WITNESS #1: Eleanor Blackwood (Wife)
+Eleanor Blackwood, age 62, is the wife of Richard Blackwood. She discovered the body at approximately 11:15 PM when she went to call Richard for their nightly tea. Eleanor Blackwood stated that Richard Blackwood had been receiving threatening letters for the past month. Eleanor Blackwood mentioned that Richard Blackwood had recently changed his will, cutting out his brother Thomas Blackwood entirely. Eleanor Blackwood was having an affair with the family lawyer, Vincent Drake.
+
+WITNESS #2: Thomas Blackwood (Brother)
+Thomas Blackwood, age 59, is the younger brother of Richard Blackwood. Thomas Blackwood had a violent argument with Richard Blackwood three days before the murder, witnessed by multiple staff members. Thomas Blackwood owns 30% shares in Blackwood Industries and stood to gain control if Richard Blackwood died. Thomas Blackwood was seen at The Golden Lion pub that night by bartender James Morrison. Thomas Blackwood has gambling debts totaling $2.3 million owed to loan shark Viktor Petrov.
+
+WITNESS #3: Sarah Blackwood (Daughter)
+Sarah Blackwood, age 34, is the only child of Richard Blackwood and Eleanor Blackwood. Sarah Blackwood works as the CFO of Blackwood Industries. Sarah Blackwood discovered that Richard Blackwood was planning to sell Blackwood Industries to Meridian Corp, which would eliminate her position. Sarah Blackwood was engaged to Michael Chen, head of security at Blackwood Manor. Sarah Blackwood has a degree in chemistry from Oxford University.
+
+WITNESS #4: Michael Chen (Head of Security)
+Michael Chen, age 38, is the head of security at Blackwood Manor and engaged to Sarah Blackwood. Michael Chen reported that the security cameras in the east wing mysteriously malfunctioned between 10:00 PM and 11:00 PM. Michael Chen previously worked for private military contractor Aegis Global. Michael Chen was seen arguing with Richard Blackwood about salary increases one week prior to the murder.
+
+WITNESS #5: Vincent Drake (Family Lawyer)
+Vincent Drake, age 55, has been the Blackwood family lawyer for 25 years. Vincent Drake drafted Richard Blackwood's new will that excluded Thomas Blackwood. Vincent Drake is having a secret affair with Eleanor Blackwood. Vincent Drake stands to receive a $500,000 executor fee from the estate. Vincent Drake has connections to offshore accounts in the Cayman Islands.
+
+--- PERSONS OF INTEREST ---
+
+Person: Margaret Wells (Housekeeper)
+Margaret Wells, age 48, has worked at Blackwood Manor for 15 years. Margaret Wells prepared Richard Blackwood's evening whiskey that night. Margaret Wells' son, Daniel Wells, was fired from Blackwood Industries six months ago by Richard Blackwood. Margaret Wells was overheard saying she wished Richard Blackwood would "get what he deserves."
+
+Person: Daniel Wells (Former Employee)
+Daniel Wells, age 26, is the son of Margaret Wells. Daniel Wells was fired from Blackwood Industries for alleged embezzlement. Daniel Wells maintains his innocence and claims Richard Blackwood framed him. Daniel Wells was seen near Blackwood Manor on the night of the murder by gardener Robert Hayes. Daniel Wells has been dating Jennifer Blackwood, the niece of Richard Blackwood.
+
+Person: Jennifer Blackwood (Niece)
+Jennifer Blackwood, age 28, is the daughter of Thomas Blackwood. Jennifer Blackwood works at Blackwood Industries in the marketing department. Jennifer Blackwood is dating Daniel Wells, despite family objections. Jennifer Blackwood has access to the manor through her family connections. Jennifer Blackwood recently took out a large life insurance policy on Richard Blackwood, naming herself as beneficiary.
+
+Person: Viktor Petrov (Loan Shark)
+Viktor Petrov, age 45, is a known criminal who operates illegal gambling and loan operations. Viktor Petrov is owed $2.3 million by Thomas Blackwood. Viktor Petrov threatened Thomas Blackwood with "consequences" if debts weren't paid by November 20. Viktor Petrov has connections to the Eastern European crime syndicate known as The Volkov Brotherhood. Viktor Petrov was seen meeting with an unknown associate near Blackwood Industries headquarters.
+
+Person: Dr. Helena Cross (Family Physician)
+Dr. Helena Cross, age 52, has been the Blackwood family physician for 12 years. Dr. Helena Cross had access to various medications and poisons through her practice. Dr. Helena Cross recently had her medical license reviewed due to patient complaints. Dr. Helena Cross prescribed sedatives to Eleanor Blackwood, which were found in Richard Blackwood's system along with the arsenic.
+
+--- EVIDENCE LOG ---
+
+EVIDENCE #1: Threatening Letters
+Three threatening letters were found in Richard Blackwood's desk. The letters demanded Richard Blackwood pay $5 million or face "elimination." Forensic analysis shows the letters were printed on paper commonly sold at Office Depot. No fingerprints were found on the letters.
+
+EVIDENCE #2: Modified Will
+Richard Blackwood's new will was signed one week before his death. The new will leaves 60% of the estate to Sarah Blackwood, 30% to Eleanor Blackwood, and 10% to charity. Thomas Blackwood and Jennifer Blackwood were specifically excluded with a clause citing "betrayal of family trust."
+
+EVIDENCE #3: Security Footage Gap
+Security footage from Blackwood Manor shows a 62-minute gap from 10:02 PM to 11:04 PM. Michael Chen claims the system "glitched" but IT specialist Karen Liu found evidence of manual override. The override code used belongs to Michael Chen's security credentials.
+
+EVIDENCE #4: Poison Source
+Arsenic matching the type found in Richard Blackwood's body was traced to a shipment stolen from Henderson Chemical Supply three months ago. Henderson Chemical Supply reported the theft to police but no suspects were identified. Daniel Wells previously worked at Henderson Chemical Supply before joining Blackwood Industries.
+
+EVIDENCE #5: Financial Records
+Blackwood Industries financial records show unusual transactions totaling $3.5 million to shell company Apex Holdings LLC. Apex Holdings LLC is registered in Delaware with no apparent business operations. Vincent Drake's signature appears on the authorization documents for these transfers.
+
+EVIDENCE #6: Phone Records
+Richard Blackwood received 47 calls from a burner phone in the two weeks before his death. The burner phone was purchased at a convenience store in downtown. Security footage from the store shows a person matching Thomas Blackwood's description purchasing the phone.
+
+EVIDENCE #7: Whiskey Glass
+The whiskey glass found near Richard Blackwood contained traces of arsenic. Margaret Wells' fingerprints were found on the glass, which she admitted to handling when she served the drink. A second set of unidentified fingerprints was also found on the glass.
+
+--- ORGANIZATIONAL CONNECTIONS ---
+
+Organization: Blackwood Industries
+Blackwood Industries is a multinational conglomerate founded by Harold Blackwood in 1952. Blackwood Industries has operations in manufacturing, real estate, and financial services. Blackwood Industries employs over 15,000 people worldwide. Blackwood Industries was in negotiations to be acquired by Meridian Corp for $2.8 billion.
+
+Organization: Meridian Corp
+Meridian Corp is a rival company headed by CEO Alexander Frost. Meridian Corp has been attempting to acquire Blackwood Industries for five years. Alexander Frost and Richard Blackwood were former business partners who had a falling out in 2018. Meridian Corp allegedly engaged in corporate espionage against Blackwood Industries.
+
+Organization: The Volkov Brotherhood
+The Volkov Brotherhood is an Eastern European organized crime syndicate. The Volkov Brotherhood operates gambling, loan sharking, and money laundering operations. Viktor Petrov is a mid-level enforcer for The Volkov Brotherhood. The Volkov Brotherhood has been expanding operations into legitimate businesses.
+
+Organization: Aegis Global
+Aegis Global is a private military and security contractor. Michael Chen worked for Aegis Global from 2015 to 2020. Aegis Global has contracts with various Fortune 500 companies. Aegis Global has been investigated for illegal surveillance activities.
+
+--- LOCATION ANALYSIS ---
+
+Location: Blackwood Manor
+Blackwood Manor is a 47-room estate located at 1847 Thornwood Drive. Blackwood Manor has been the Blackwood family residence since 1965. Blackwood Manor has 24/7 security coverage and gated access. The study where Richard Blackwood died is on the second floor, east wing.
+
+Location: The Golden Lion Pub
+The Golden Lion Pub is located at 234 Main Street, 3.2 miles from Blackwood Manor. Thomas Blackwood claims he was at The Golden Lion Pub from 9:00 PM to midnight. Bartender James Morrison confirmed seeing Thomas Blackwood but cannot verify exact times. The Golden Lion Pub has no security cameras.
+
+Location: Henderson Chemical Supply
+Henderson Chemical Supply is located in the industrial district at 567 Factory Road. The arsenic theft occurred on August 15, 2025. Henderson Chemical Supply employee records show Daniel Wells worked there from 2019 to 2022. Security at Henderson Chemical Supply was notably lax at the time of the theft.
+
+--- TIMELINE OF EVENTS ---
+
+November 1, 2025: Richard Blackwood receives first threatening letter.
+November 5, 2025: Richard Blackwood meets with Vincent Drake to modify his will.
+November 8, 2025: Second threatening letter arrives at Blackwood Manor.
+November 10, 2025: Sarah Blackwood learns about the planned sale to Meridian Corp.
+November 11, 2025: Thomas Blackwood and Richard Blackwood have violent argument witnessed by staff.
+November 12, 2025: Third threatening letter received. Richard Blackwood increases security.
+November 13, 2025: Viktor Petrov meets with unknown associate near Blackwood Industries.
+November 14, 2025, 7:00 PM: Family dinner at Blackwood Manor attended by Richard, Eleanor, Sarah, and Thomas Blackwood.
+November 14, 2025, 9:00 PM: Thomas Blackwood leaves for The Golden Lion Pub.
+November 14, 2025, 9:30 PM: Richard Blackwood retires to his study.
+November 14, 2025, 10:00 PM: Margaret Wells serves Richard Blackwood his evening whiskey.
+November 14, 2025, 10:02 PM: Security cameras in east wing go offline.
+November 14, 2025, 10:30 PM: Estimated time of death.
+November 14, 2025, 11:04 PM: Security cameras come back online.
+November 14, 2025, 11:15 PM: Eleanor Blackwood discovers Richard Blackwood's body.
+November 14, 2025, 11:20 PM: Michael Chen calls emergency services.
+November 14, 2025, 11:45 PM: Police arrive at Blackwood Manor.
+
+--- ADDITIONAL INTELLIGENCE ---
+
+Alexander Frost of Meridian Corp was seen having dinner with Sarah Blackwood two days before the murder. The purpose of this meeting is unknown but raises questions about Sarah Blackwood's involvement in the acquisition negotiations.
+
+Bank records show Eleanor Blackwood withdrew $50,000 in cash one week before the murder. Eleanor Blackwood claims this was for "household expenses" but cannot provide receipts.
+
+A rental car matching the description of one seen leaving Blackwood Manor at 10:45 PM was found abandoned at the airport. The car was rented using a fake ID with the name "John Smith." DNA evidence from the car is being processed.
+
+Viktor Petrov's associate, seen meeting with him on November 13, has been identified as former police detective Raymond Cross, husband of Dr. Helena Cross. Raymond Cross resigned from the police force under investigation for corruption five years ago.
+
+Margaret Wells' late husband, George Wells, was killed in an industrial accident at Blackwood Industries in 2018. Margaret Wells received a settlement but has publicly stated the amount was "insulting" given her husband's 30 years of service.
+
+Jennifer Blackwood's life insurance policy on Richard Blackwood was for $10 million. The policy was taken out just three weeks before the murder through an insurance agent who has connections to Viktor Petrov.
+
+=== END OF CASE FILE #001 ===

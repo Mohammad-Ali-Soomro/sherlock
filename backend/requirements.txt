@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic-settings
+langchain
+langchain-community
+langchain-openai
+langchain-neo4j
+langchain-experimental
+neo4j
+networkx
