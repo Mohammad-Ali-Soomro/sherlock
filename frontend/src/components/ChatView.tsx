@@ -3,6 +3,8 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { useInvestigation } from "@/context/InvestigationContext";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
 // Helper to render message content with clickable entity names
 function RenderMessageWithEntities({
   content,
@@ -93,7 +95,7 @@ export function ChatView() {
     addMessage({ role: "user", content: userMessage });
 
     try {
-      const res = await fetch("http://localhost:8000/detective/query", {
+      const res = await fetch(`${API_URL}/detective/query`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ question: userMessage }),
@@ -145,7 +147,7 @@ export function ChatView() {
       });
 
       try {
-        const res = await fetch("http://localhost:8000/ingest", {
+        const res = await fetch(`${API_URL}/ingest`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ 

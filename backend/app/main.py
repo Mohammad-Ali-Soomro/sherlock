@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 from typing import List, Optional
 from pydantic import BaseModel
 
+import os
+
 from app.config import get_settings
 from app.database import get_neo4j_graph, get_neo4j_driver, close_neo4j_connection, verify_neo4j_connection
 from app.schemas import GraphSchema, HealthStatus, NodeType, RelationshipType
@@ -18,6 +20,11 @@ from app.detective import router as detective_router
 
 # Load environment variables
 load_dotenv()
+
+# CORS origins - reads from ALLOWED_ORIGINS env var (comma-separated), defaults to localhost
+_default_origins = ["http://localhost:3000"]
+_env_origins = os.getenv("ALLOWED_ORIGINS", "")
+CORS_ORIGINS = [o.strip() for o in _env_origins.split(",") if o.strip()] if _env_origins else _default_origins
 
 
 @asynccontextmanager
@@ -51,7 +58,7 @@ app = FastAPI(
 # Configure CORS for frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

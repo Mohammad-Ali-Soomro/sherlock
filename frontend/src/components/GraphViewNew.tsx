@@ -4,6 +4,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { GraphCanvas, GraphCanvasRef } from "reagraph";
 import { useInvestigation } from "@/context/InvestigationContext";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
 // Professional color palette for entity types (optimized for light background)
 const NODE_COLORS: Record<string, string> = {
   person: "#3B82F6",      // Blue
@@ -186,7 +188,7 @@ export function GraphView() {
       }
       
       try {
-        const response = await fetch(`http://localhost:8000/detective/analyze/most-important?top_n=100`);
+        const response = await fetch(`${API_URL}/detective/analyze/most-important?top_n=100`);
         if (response.ok) {
           const data = await response.json();
           const scores: CentralityData = {};

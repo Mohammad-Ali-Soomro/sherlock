@@ -2,6 +2,8 @@
 
 import { createContext, useContext, useState, useCallback, ReactNode } from "react";
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+
 // Types
 export interface Message {
   id: string;
@@ -174,7 +176,7 @@ export function InvestigationProvider({ children }: { children: ReactNode }) {
 
     try {
       // Fetch graph data filtered by investigation_id
-      const res = await fetch(`http://localhost:8000/detective/full-graph?investigation_id=${currentInvestigationId}`);
+      const res = await fetch(`${API_URL}/detective/full-graph?investigation_id=${currentInvestigationId}`);
       if (res.ok) {
         const data = await res.json();
         if (data.nodes && data.nodes.length > 0) {
