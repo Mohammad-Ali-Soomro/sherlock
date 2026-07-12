@@ -70,6 +70,7 @@ class KeySuspectsResponse(BaseModel):
 class NaturalLanguageQuery(BaseModel):
     """Request model for natural language queries."""
     question: str = Field(..., description="Natural language question about the crime data")
+    investigation_id: Optional[str] = Field(None, description="Optional investigation ID to isolate query data")
 
 
 class QueryResponse(BaseModel):
@@ -413,67 +414,110 @@ async def find_key_suspects(
 @router.post("/query", response_model=QueryResponse)
 async def natural_language_query(request: NaturalLanguageQuery):
     """
-    Answer natural language questions about the crime data using GraphCypherQAChain.
+    Answer natural language questions about the crime data using custom Graph RAG.
     
-    This endpoint converts natural language questions to Cypher queries,
-    executes them against the Neo4j database, and returns human-readable answers.
-    
-    Examples:
-        - "Who was murdered?"
-        - "What organizations are in the database?"
-        - "How is John Smith connected to The Syndicate?"
-        - "Who is investigating the crime?"
+    This endpoint retrieves the nodes and relationships (optionally isolated by investigation_id),
+    formats them into a text context, and feeds them to the LLM to get a precise answer.
     """
     graph = get_neo4j_graph()
     
     try:
-        # Refresh schema to ensure LLM has latest graph structure
-        graph.refresh_schema()
+        # Build queries based on whether investigation_id is provided
+        if request.investigation_id:
+            nodes_query = """
+            MATCH (n {investigation_id: $investigation_id})
+            RETURN n.name AS name, labels(n) AS labels, properties(n) AS properties
+            LIMIT 1000
+            """
+            rels_query = """
+            MATCH (a {investigation_id: $investigation_id})-[r]->(b {investigation_id: $investigation_id})
+            RETURN a.name AS source, b.name AS target, type(r) AS type, properties(r) AS properties
+            LIMIT 1000
+            """
+            params = {"investigation_id": request.investigation_id}
+        else:
+            nodes_query = """
+            MATCH (n)
+            RETURN n.name AS name, labels(n) AS labels, properties(n) AS properties
+            LIMIT 1000
+            """
+            rels_query = """
+            MATCH (a)-[r]->(b)
+            RETURN a.name AS source, b.name AS target, type(r) AS type, properties(r) AS properties
+            LIMIT 1000
+            """
+            params = {}
+            
+        nodes_res = graph.query(nodes_query, params)
+        rels_res = graph.query(rels_query, params)
+        
+        if not nodes_res and not rels_res:
+            return QueryResponse(
+                question=request.question,
+                cypher_query="[Context-based Graph Query]",
+                answer="The database/investigation is currently empty. Please upload some evidence files first to populate the graph.",
+                success=True,
+                message="Query executed on empty database."
+            )
+            
+        # Format graph context
+        nodes_str = []
+        for node in nodes_res:
+            name = node.get("name")
+            if not name:
+                continue
+            labels = ", ".join(node.get("labels", []))
+            props = node.get("properties", {})
+            # Remove system properties
+            props_filtered = {k: v for k, v in props.items() if k not in ["name", "id", "investigation_id", "source"]}
+            props_str = f" ({props_filtered})" if props_filtered else ""
+            nodes_str.append(f"- {name} [{labels}]{props_str}")
+            
+        rels_str = []
+        for rel in rels_res:
+            source = rel.get("source")
+            target = rel.get("target")
+            if not source or not target:
+                continue
+            rel_type = rel.get("type", "CONNECTED_TO")
+            props = rel.get("properties", {})
+            props_filtered = {k: v for k, v in props.items() if k not in ["investigation_id"]}
+            props_str = f" {props_filtered}" if props_filtered else ""
+            rels_str.append(f"- {source} --[{rel_type}]--> {target}{props_str}")
+            
+        graph_context = "ENTITIES:\n" + "\n".join(nodes_str) + "\n\nRELATIONSHIPS:\n" + "\n".join(rels_str)
         
         # Initialize LLM
         llm = get_llm()
         
-        # Create GraphCypherQAChain
-        chain = GraphCypherQAChain.from_llm(
-            llm=llm,
-            graph=graph,
-            verbose=False,
-            return_intermediate_steps=True,
-            validate_cypher=True,
-            allow_dangerous_requests=True,  # Required for Neo4j queries
+        system_prompt = (
+            "You are Sherlock, an expert AI detective analyzing a crime network. "
+            "You are given a list of entities (nodes) and their relationships (edges) extracted from case files/evidence. "
+            "Your goal is to answer the user's question accurately using ONLY the provided graph context. "
+            "If the answer cannot be inferred from the context, say: 'I don't know the answer based on the current evidence.'\n\n"
+            "Be detailed, analytical, and connect the dots based on the relationships. Mention suspect names, locations, and connections explicitly.\n\n"
+            "Here is the current graph database context:\n"
+            f"{graph_context}"
         )
         
-        # Execute the query
-        result = chain.invoke({"query": request.question})
+        messages = [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": request.question}
+        ]
         
-        # Extract Cypher query from intermediate steps
-        cypher_query = ""
-        if "intermediate_steps" in result:
-            for step in result["intermediate_steps"]:
-                if isinstance(step, dict) and "query" in step:
-                    cypher_query = step["query"]
-                    break
-                elif isinstance(step, str) and step.strip().upper().startswith(("MATCH", "RETURN", "WITH", "CALL")):
-                    cypher_query = step
-                    break
+        response = llm.invoke(messages)
+        answer = response.content
         
         return QueryResponse(
             question=request.question,
-            cypher_query=cypher_query,
-            answer=result.get("result", "No answer found."),
+            cypher_query="[Context-based Graph Query]",
+            answer=answer,
             success=True,
             message="Query executed successfully."
         )
         
     except Exception as e:
         error_msg = str(e)
-        
-        # Provide helpful error messages
-        if "no procedure" in error_msg.lower():
-            error_msg = "Database procedure not available. Please ensure APOC is installed."
-        elif "syntax" in error_msg.lower():
-            error_msg = f"Query syntax error: {error_msg}"
-        
         return QueryResponse(
             question=request.question,
             cypher_query="",

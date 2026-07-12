@@ -98,7 +98,10 @@ export function ChatView() {
       const res = await fetch(`${API_URL}/detective/query`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ question: userMessage }),
+        body: JSON.stringify({ 
+          question: userMessage,
+          investigation_id: currentInvestigation.id 
+        }),
       });
 
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
