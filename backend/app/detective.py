@@ -11,7 +11,7 @@ This module provides crime investigation analysis capabilities:
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, Field
 from typing import List, Optional, Dict, Any, Tuple
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from langchain_neo4j import GraphCypherQAChain
 import networkx as nx
 from networkx.algorithms.community import greedy_modularity_communities, modularity
@@ -153,13 +153,12 @@ class DetailedPathResponse(BaseModel):
 # Helper Functions
 # ============================================================================
 
-def get_llm() -> ChatOpenAI:
+def get_llm() -> ChatGroq:
     """
-    Initialize ChatOpenAI with Llama 3.3 70B via Groq for natural language queries.
+    Initialize ChatGroq with Llama 3.3 70B via Groq for natural language queries.
     """
     settings = get_settings()
-    return ChatOpenAI(
-        base_url="https://api.groq.com/openai/v1",
+    return ChatGroq(
         api_key=settings.groq_api_key,
         model="llama-3.3-70b-versatile",
         temperature=0,

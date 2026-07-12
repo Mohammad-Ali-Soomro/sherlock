@@ -5,6 +5,7 @@ pydantic-settings
 langchain
 langchain-community
 langchain-openai
+langchain-groq
 langchain-neo4j
 langchain-experimental
 neo4j

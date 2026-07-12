@@ -8,7 +8,7 @@ This module provides a custom extraction pipeline that:
 4. Uses MERGE operations in Neo4j to handle duplicates gracefully
 """
 
-from langchain_openai import ChatOpenAI
+from langchain_groq import ChatGroq
 from typing import List, Optional, Set
 from pydantic import BaseModel, Field
 from enum import Enum
@@ -250,14 +250,13 @@ Extract ALL relevant entities and relationships from the text. Be thorough but p
 # LLM Initialization
 # =============================================================================
 
-def get_extraction_llm() -> ChatOpenAI:
+def get_extraction_llm() -> ChatGroq:
     """
-    Initialize ChatOpenAI with Llama 3.3 70B via Groq.
+    Initialize ChatGroq with Llama 3.3 70B via Groq.
     Configured for structured output extraction.
     """
     settings = get_settings()
-    return ChatOpenAI(
-        base_url="https://api.groq.com/openai/v1",
+    return ChatGroq(
         api_key=settings.groq_api_key,
         model="llama-3.3-70b-versatile",
         temperature=0,
