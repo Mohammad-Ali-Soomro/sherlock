@@ -478,7 +478,7 @@ async def natural_language_query(request: NaturalLanguageQuery):
         return QueryResponse(
             question=request.question,
             cypher_query="",
-            answer="",
+            answer=f"I encountered an error processing your question: {error_msg}",
             success=False,
             message=f"Failed to process query: {error_msg}"
         )
