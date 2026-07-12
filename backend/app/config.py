@@ -5,8 +5,8 @@ from functools import lru_cache
 class Settings(BaseSettings):
     """Application settings loaded from environment variables."""
     
-    # OpenRouter Configuration (for DeepSeek R1)
-    openrouter_api_key: str
+    # Groq Configuration (for LLM)
+    groq_api_key: str
     
     # Neo4j Configuration
     neo4j_uri: str

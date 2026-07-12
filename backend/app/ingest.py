@@ -252,14 +252,14 @@ Extract ALL relevant entities and relationships from the text. Be thorough but p
 
 def get_extraction_llm() -> ChatOpenAI:
     """
-    Initialize ChatOpenAI with Grok 4.1 Fast (Free) via OpenRouter.
+    Initialize ChatOpenAI with Llama 3.3 70B via Groq.
     Configured for structured output extraction.
     """
     settings = get_settings()
     return ChatOpenAI(
-        base_url="https://openrouter.ai/api/v1",
-        api_key=settings.openrouter_api_key,
-        model="x-ai/grok-4.1-fast:free",
+        base_url="https://api.groq.com/openai/v1",
+        api_key=settings.groq_api_key,
+        model="llama-3.3-70b-versatile",
         temperature=0,
     )
 
