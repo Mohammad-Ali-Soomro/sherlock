@@ -208,8 +208,9 @@ export function GraphView() {
   // Handle focused node
   useEffect(() => {
     if (focusedNodeId && graphRef.current) {
-      // Check if the focused node exists in the current graph nodes
-      const nodeExists = graphNodes.some(n => n.id === focusedNodeId);
+      // Check if the focused node exists in the current visible nodes
+      const visibleNodes = nodes.filter(n => visibleNodeIds.has(n.id));
+      const nodeExists = visibleNodes.some(n => n.id === focusedNodeId);
       
       if (!nodeExists) {
         // Node might be hidden by timeline filter - check if it exists in full nodes
@@ -247,7 +248,7 @@ export function GraphView() {
       
       return () => clearTimeout(timeoutId);
     }
-  }, [focusedNodeId, clearFocusedNode, graphNodes, nodes, timelineEnabled]);
+  }, [focusedNodeId, clearFocusedNode, visibleNodeIds, nodes, timelineEnabled]);
 
   // Get connection count
   const getNodeConnections = useCallback((nodeId: string): number => {
